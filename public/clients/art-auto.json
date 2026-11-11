@@ -1,0 +1,19 @@
+{
+  "business_name": "Art Auto",
+  "logo_text": "ART AUTO",
+  "accent_color": "#C5F015",
+  "telegram_username": "viktor_artauto",
+  "phone": "+7 (920) 583-29-22",
+  "address": "г. Белгород, Гражданский проспект, 47 к1",
+  "hero_image": "/images/art-auto/hero.jpg",
+  "hero_title": "Премиальный уход за вашим авто",
+  "hero_subtitle": "Детейлинг и автомойка в Белгороде. Запись онлайн за 30 секунд.",
+  "services": [
+    { "id": "1", "name": "Комплексная мойка", "price": 1400, "duration": "1 час", "image": "/images/art-auto/srv1.jpg" },
+    { "id": "2", "name": "Химчистка салона", "price": 5000, "duration": "3 часа", "image": "/images/art-auto/srv2.jpg" },
+    { "id": "3", "name": "Мойка двигателя", "price": 1500, "duration": "40 мин", "image": "/images/art-auto/srv3.jpg" },
+    { "id": "4", "name": "Мойка днища", "price": 1000, "duration": "30 мин", "image": "/images/art-auto/srv4.jpg" },
+    { "id": "5", "name": "Полировка кузова", "price": 8000, "duration": "4 часа", "image": "/images/art-auto/srv5.jpg" }
+  ],
+  "working_hours": { "start": "09:00", "end": "21:00", "slot_minutes": 60 }
+}
