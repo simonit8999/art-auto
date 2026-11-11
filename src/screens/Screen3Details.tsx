@@ -4,7 +4,7 @@ import type { BookingData } from '../types'
 interface Props { data: BookingData; onChange: (patch: Partial<BookingData>) => void; onNext: () => void }
 
 export default function Screen3Details({ data, onChange, onNext }: Props) {
-  // Исправленная валидация: проверяем, что в телефоне ровно 11 цифр, и заполнены имя с авто
+  // Валидация: проверяем, что имя и авто заполнены, а в телефоне ровно 11 цифр
   const valid = data.carModel.trim().length > 0 && data.name.trim().length > 0 && data.phone.replace(/\D/g, '').length === 11
   
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
